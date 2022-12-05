@@ -22,7 +22,7 @@ function App() {
 
     const newMessage = {
       body: mensage,
-      from: "yo",
+      from: "yo",      /* ggg */
     };
     setMensages([ newMessage, ...mensages])
     setMensage('')
